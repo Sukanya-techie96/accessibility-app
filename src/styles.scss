@@ -1,0 +1,16 @@
+/* High contrast keyboard focus indicators */
+:focus-visible {
+  outline: 3px solid #0d6efd !important;
+  outline-offset: 3px !important;
+}
+
+/* Skip to content link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 10px;
+  z-index: 10000;
+  &:focus {
+    top: 10px;
+  }
+}
